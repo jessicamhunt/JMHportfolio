@@ -1,0 +1,162 @@
+body{
+  background-color: #f9e9fc;
+  bottom: 1;
+}
+
+/* ---------------------------------------------NAVBAR------------------------------------------------------------- */
+#navigation {    
+    background-color: #160119;
+    border-bottom: 3px solid #fc2e7b;
+    /* min-height: 56px; */
+}
+
+#submit {
+  background-color: #160119;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  justify-content: left;
+}
+
+#navigation .navbar-brand {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    padding: .9rem 0;
+}
+
+#navigation .nav-link {
+    color: rgb(220, 243, 230) ;
+    font-family: 'Rubik', sans-serif;
+    /* outline: none; */
+    /* background-color: transparent; */
+}
+
+#navigation:hover .nav-link:hover {
+  color: #fc2e7b;
+}
+
+/* -----------------------------------------------VIDEO BACKGROUND------------------------------------------------- */
+/* #videoDiv {
+    width: 100%; 
+    height: 100%; 
+    position: relative;
+    text-align: center;
+}
+
+#videoBlock {
+    width: 100%; 
+    height: 100%;  
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    /* position: absolute; */
+/* }
+
+#video {
+    width: 100%;
+    height: 100%;
+}
+
+#message {
+    width: 100%; 
+    height:100%; 
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    justify-content: center; 
+    align-items: center;
+    display: inline-block;
+}
+
+#message *{
+    padding: .7em;
+    margin: 0;
+    
+}
+
+#message {
+    text-shadow: 2px 2px 2px #000000; 
+    color:white;
+    z-index:99; 
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+#message h1{
+    font-size: 2em;
+    color:#ffffff;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#mark-is-a-fuckface {
+  border: 3px solid white;
+  color: white;
+  font-family: 'Rubik', sans-serif; 
+
+} */
+/* --------------------------------END OF CODE FOR VIDEO BACKGROUND----------------------------------------------- */
+
+
+#about,
+#portfolio,
+#blog,
+#contact,
+#footer
+ {
+    position: relative;
+    top: 200px;
+}
+
+#footer {
+  background-color: #fc2e7b;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+}
+
+h2,
+.text-uppercase,
+.lang {
+  color: #fc2e7b;
+  font-family: 'Rubik', sans-serif;
+}
+
+#menu {
+  color: #ffffff;
+}
+
+h5,
+.fa-file-pdf,
+.fa-envelope,
+.fa-mobile-alt,
+.small {
+  color: #160119;
+  /* font-family: 'Rubik', sans-serif; */
+}
+
+h4 {
+  color: #160119;
+  font-family: 'Rubik', sans-serif;
+}
+
+.icons,
+#name-color,
+.fa-linkedin,
+.fa-github {
+  color: #fc2e7b;
+}
+
+label {
+  color: #160119;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 576px) {
+  
+  div#message.align-items-center.text-center {
+  /* font-size: .5rem;
+  line-height: .5rem; */
+ }
+}
