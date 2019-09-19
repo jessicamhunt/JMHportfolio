@@ -1,36 +1,48 @@
-
-body{
+body {
   background-color: #f9e9fc;
   bottom: 1;
 }
 
-/* ---------------------------------------------NAVBAR------------------------------------------------------------- */
-
-#navigation {    
-    background-color: #160119;
-    border-bottom: 3px solid #fc2e7b;
-    /* min-height: 56px; */
+p {
+  font-family: 'Chilanka', cursive;
+  font-size: 1.2rem;
 }
 
-#submit {
+h2 {
+  color: #fc2e7b;
+  font-family: 'Great Vibes', cursive;
+  /* font-size: 3px; */
+  text-shadow: 2px 2px 4px #000000;
+}
+/* ---------------------------------------------NAVBAR------------------------------------------------------------- */
+
+#navigation {
+  background-color: #160119;
+  border-bottom: 3px solid #fc2e7b;
+  /* min-height: 56px; */
+}
+
+/* #submit {
   background-color: #160119;
   color: #ffffff;
   font-family: 'Rubik', sans-serif;
   justify-content: left;
-}
+} */
 
 #navigation .navbar-brand {
-    color: #ffffff;
-    font-family: 'Rubik', sans-serif;
-    font-size: 30px;
-    padding: .9rem 0;
+  color: #ffffff;
+  font-family: 'Great Vibes', cursive;
+  font-size: 30px;
+  padding: .9rem 0;
 }
 
 #navigation .nav-link {
-    color: rgb(220, 243, 230) ;
-    font-family: 'Rubik', sans-serif;
-    /* outline: none; */
-    /* background-color: transparent; */
+  color: rgb(220, 243, 230);
+  font-family: 'Great Vibes', cursive;
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+  /* outline: none; */
+  /* background-color: transparent; */
 }
 
 #navigation:hover .nav-link:hover {
@@ -38,6 +50,8 @@ body{
 }
 
 /* -----------------------------------------------LANDING PAGE-------------------------------------------------------- */
+/* URL for the code I used for the video header */
+/* https://startbootstrap.com/snippets/video-header/ */
 
 header {
   position: relative;
@@ -83,30 +97,37 @@ header .overlay {
   header {
     background: url('assets\images\spin_cycle (1)_Moment.jpg') no-repeat center center scroll;
   }
+
   header video {
     display: none;
   }
 }
 
+#welcome,
+#abt-msg {
+  font-family: 'Chilanka', cursive;
+}
+
+#name-color {
+  color: #fc2e7b;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 #mark-is-a-fuckface {
-  border: 3px solid white;
+  border: 1px solid white;
   color: white;
   background-color: #fc2e7b;
-  font-family: 'Rubik', sans-serif; 
+  font-family: 'Chilanka', cursive;
+  font-size: 1rem;
+  /* letter-spacing: 4px; */
+  text-shadow: 2px 2px 4px #000000;
+}
 
-} 
+/* --------------------------------ABOUT SECTION----------------------------------------------- */
 
-/* --------------------------------END OF CODE FOR VIDEO BACKGROUND----------------------------------------------- */
-
-
-#about,
-#portfolio,
-#blog,
-#contact,
-#footer
- {
-    position: relative;
-    top: 200px;
+#port-pic {
+  box-shadow: 10px 10px 5px grey;
 }
 
 #footer {
@@ -116,11 +137,11 @@ header .overlay {
   font-family: 'Rubik', sans-serif;
 }
 
-h2,
 .text-uppercase,
 .lang {
   color: #fc2e7b;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Great Vibes', cursive;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #menu {
@@ -142,10 +163,10 @@ h4 {
 }
 
 .icons,
-#name-color,
 .fa-linkedin,
 .fa-github {
   color: #fc2e7b;
+  /* font-family: 'Great Vibes', cursive; */
 }
 
 label {
@@ -155,9 +176,9 @@ label {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 576px) {
-  
+
   div#message.align-items-center.text-center {
-  /* font-size: .5rem;
+    /* font-size: .5rem;
   line-height: .5rem; */
- }
+  }
 }
