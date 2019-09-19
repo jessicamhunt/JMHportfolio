@@ -21,9 +21,8 @@
 
 <body id="page top">
 
+    <!-- NAVIGATION BAR -->
 
-
-    <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navigation">
         <div class="container">
             <a class="navbar-brand js-scroll-trigger text-center" href="#page-top">Jessica Hunt</a>
@@ -44,9 +43,6 @@
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
-                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
                     </li>
@@ -55,52 +51,23 @@
         </div>
     </nav>
 
-    <!-- Landing page message and button leading to about page -->
-    <div class="container">
-        <div class="row m-5 pt-5">
-            <div class="col m-5 pt-5 d-flex justify-content-center w-100">
-
-                <div id="message" class="mt-5 text-center">
-                    <h1 id="land-msg" class=""><span id="name-color">Jessica Hunt</span><br>Full-stack developer.</h1>
-                    <br>
-                    <a href="#about" id="mark-is-a-fuckface" class="btn btn-default p-1 js-scroll-trigger"><strong>Find
+    <!-- LANDING PAGE WITH VIDEO BACKGROUND & INTRO MESSAGE -->
+    <header>
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="assets\images\spin_cycle (1).mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-4">Welcome, My name is <span id="name-color">Jessica Hunt</span>.</h1>
+                    <h2 class="text-white">I'm a full stack developer living in Philadelphia, PA.</h2>
+                    <a href="#about" id="mark-is-a-fuckface" class="btn btn-default mt-5 p-2 js-scroll-trigger"><strong>Find
                             Out More</strong></a>
                 </div>
             </div>
-
         </div>
-    </div>
-
-
-    <!-- Video Background -->
-    <!-- <div id="videoDiv" class="mt-5"> 
-            <div id="videoBlock" class="mt-5">   
-                <video class="h-100" preload="preload"  id="video" autoplay="autoplay" loop="loop" muted="true">
-                    <source src="assets/images/spin_cycle (1).mp4" type="video/mp4"></source>
-                </video> 
-                <div id="message" class="mt-5 pt-5">
-                    <h1 id="land-msg"><span id="name-color">Jessica Hunt</span><br>Full-stack developer.</h1>
-                    <a href="#about" id="mark-is-a-fuckface" class="btn btn-default p-1 js-scroll-trigger"><strong>Find Out More</strong></a>
-                </div>
-            </div>
-        </div> -->
-
-
-    <!-- Landing-->
-    <!-- <header id="home" class="landing">
-        <div class="container d-flex mt-5 p-5 h-100 align-items-center">
-            <div class="row mx-auto p-5 text-center">
-                <div class="col m-5"> -->
-    <!-- <div class="row"> -->
-    <!-- <div class="col"> -->
-    <!-- <h1 class="m-5">Hi, My Name is <span id="name-color">Jessica Hunt</span>. <br> I'm a full-stack developer.</h1>
-                            <a href="#about" class="btn btn-primary m-5 js-scroll-trigger">Find Out More</a>
-                        </div> -->
-    <!-- </div> -->
-    <!-- </div>
-            </div>
-        </div>
-    </header> -->
+    </header>
 
     <!-- About -->
     <section id="about" class="mb-5 about-section text-center">
@@ -124,6 +91,8 @@
                         <i class="fab fa-node fa-5x mx-3"></i>
                     </div>
                 </div>
+            </div>
+        </div>
     </section>
 
     <!-- Portfolio -->
