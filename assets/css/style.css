@@ -8,10 +8,12 @@ p {
   font-size: 1.2rem;
 }
 
-h2 {
+h2,
+.contact,
+.lang {
   color: #fc2e7b;
   font-family: 'Great Vibes', cursive;
-  /* font-size: 3px; */
+  font-size: 2.5rem;
   text-shadow: 2px 2px 4px #000000;
 }
 /* ---------------------------------------------NAVBAR------------------------------------------------------------- */
@@ -114,7 +116,9 @@ header .overlay {
   text-shadow: 2px 2px 4px #000000;
 }
 
-#mark-is-a-fuckface {
+#mark-is-a-fuckface,
+#submit,
+.btn-primary {
   border: 1px solid white;
   color: white;
   background-color: #fc2e7b;
@@ -137,12 +141,6 @@ header .overlay {
   font-family: 'Rubik', sans-serif;
 }
 
-.text-uppercase,
-.lang {
-  color: #fc2e7b;
-  font-family: 'Great Vibes', cursive;
-  text-shadow: 2px 2px 4px #000000;
-}
 
 #menu {
   color: #ffffff;
